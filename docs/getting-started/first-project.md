@@ -19,6 +19,10 @@ Once you have successfully <a href="/prerequisites/installation/install-procedur
 <div><a style="float:right" href="/getting-started/first-test">Go to <strong>Your First Test</strong></a></div>
 <br><br>
 
+{% if site.has_cta_panels == true %}
+{% include cta-panel-teststudio-overview.html %}
+{% endif %}
+
 ## Starting Welcome Screen
 
 Launching Test Studio will get you to the [**Welcome Screen**](/general-information/start-a-project/welcome-screen). It lets you create new or open existing projects, access demo resources, see notifications about software updates and news related to the product.
@@ -89,7 +93,7 @@ If you browse the project root folder in the __Windows File Explorer__, you can 
 - __Pages.g.cs (Pages.g.vb)__ - the file, which stores all recorded elements in the web and WPF tests in the project.
 - __Settings.aiis__ - the file, which stores the project settings.
 
-![File Types in the Project in FIle Explorer](/img/getting-started/first-project/file-types-in-file-explorer.png.png)
+![File Types in the Project in FIle Explorer](/img/getting-started/first-project/file-types-in-file-explorer.png)
 
 ## Elements in Test Studio Project
 
